@@ -1,0 +1,134 @@
+---
+permalink: windows-install/task-configure-wfa-with-mscs-using-configuration-scripts.html 
+sidebar: sidebar 
+keywords: configure, workflow, automation, mscs 
+summary: 在 Microsoft 集群服务器（ MSCS ）中安装 Workflow Automation （ WFA ）后，您必须使用配置脚本在 MSCS 中配置 WFA 以实现高可用性。 
+---
+= 使用 MSCS 配置 Workflow Automation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在 Microsoft 集群服务器（ MSCS ）中安装 Workflow Automation （ WFA ）后，您必须使用配置脚本在 MSCS 中配置 WFA 以实现高可用性。
+
+您必须已创建 WFA 的备份。
+
+.步骤
+. 登录到 MSCS 集群的第一个节点，然后执行以下步骤：
++
+[cols="2*"]
+|===
+| 针对 ... | 执行此操作 ... 
+
+
+ a| 
+Windows 2012
+ a| 
+.. 在故障转移集群管理器中，右键单击 * 服务角色 * 。
+.. 选择 * 创建空服务角色 * ，然后将此角色重命名为 "`WFA` " 。
+.. 将 IP 地址资源添加到新创建的 "`WFA` " 角色：
++
+... 在故障转移集群管理器中，右键单击新创建的 "`WFA` " 角色。
+... 选择 * 资源 * > * 更多资源 * > * IP 地址 * 。
+... 配置集群 IP 地址。
+
+
+
+
+
+
+ a| 
+Windows 2008
+ a| 
+.. 在故障转移集群管理器中，右键单击 * 服务和应用程序 * 。
+.. 单击 * 更多操作 * > * 创建空服务或应用程序 * ，然后将此服务重命名为 "`WFA` " 。
+.. 将 IP 地址资源添加到新创建的 "`WFA` " 服务：
++
+... 在故障转移集群管理器中，右键单击新创建的 "`WFA` " 服务。
+... 选择 * 添加资源 * > * 更多资源 * > * 添加 IP 地址 * 。
+... 配置集群 IP 地址。
+
+
+
+
+|===
+. 在命令提示符处，运行 `ha_setup.pl` 脚本将 WFA 数据移动到共享位置并使用 MSCS 配置 WFA 以进行故障转移： `perl ha_setup.pl -first （ -t type_of_cluster_vcs ）（ -g cluster_group_name ）（ -i ip_address_resource_name ）（ -n cluster_name ）（ -k shared_disk_name ）（ -k shared_resource_name ））`
++
+该脚本可从 `WFA_INSTALL_location\WFA\bin\ha\ 获取。`
+
++
+* 示例 *
+
++
+`perl ha_setup.pl -first -t MSCS -g WFA -i "Cluster IP Address" -n WFA_cluster -k "Cluster Disk 2" -f E ： \`
+
+. 验证是否已创建 MSCS 资源。
+. 从故障转移集群管理器停止 WFA 服务：
++
+|===
+
+
+| 针对 ... | 执行此操作 ... 
+
+
+ a| 
+Windows 2012
+ a| 
+.. 选择 * 服务角色 * ，然后选择新创建的 "`WFA` " 角色。
+.. 在资源窗格中，右键单击 * 不可用 WFA_DB* ，然后选择 * 脱机 * 。
+.. 在资源窗格中，右键单击 * 不适用 WFA_SRV* ，然后选择 * 脱机 * 。
+
+
+
+
+ a| 
+Windows 2008
+ a| 
+.. 选择 * 服务和应用程序 * ，然后选择新创建的 "`WFA` " 服务。
+.. 在其他资源窗格中，右键单击 * NA_WFA_DB* ，然后选择 * 使此资源脱机 * 。
+.. 在其他资源窗格中，右键单击 * NA_WFA_SRV* ，然后选择 * 使此资源脱机 * 。
+
+
+|===
++
+WFA 数据库服务和 WFA 服务器服务必须脱机。不得从 Windows 服务停止 WFA 服务。
+
+. 手动将 WFA 资源移动到二级节点。
+. 验证是否可从第二个节点访问共享磁盘。
+. 在命令提示符处，在集群的二级节点上运行 `ha_setup.pl` 脚本，以配置 WFA ，以便使用共享位置的数据： `perl ha_setup.pl -join "-t type_of_cluster_mSCS] （ -f shared_drive_path] ）`
++
+`ha_setup.pl` 脚本可从 `WFA_INSTALL_location\WFA\bin\ha\ 获得。`
+
++
+* 示例 *
+
++
+`perl ha_setup.pl -join -t MSCS -f E ： \`
+
+. 在故障转移集群管理器中，使 WFA 资源联机：
++
+[cols="2*"]
+|===
+| 针对 ... | 执行此操作 ... 
+
+
+ a| 
+Windows 2012
+ a| 
+.. 右键单击新创建的 "`WFA` " 角色，然后选择 * 启动角色 * 。角色必须处于运行状态，并且各个资源必须处于联机状态。
+
+
+
+
+ a| 
+Windows 2008
+ a| 
+.. 右键单击新创建的 "`WFA` " 服务，然后选择 * 使此服务或应用程序联机 * 。此服务必须处于 `Running` 状态，并且各个资源必须处于 `Online` 状态。
+
+
+|===
+. 手动切换到 MSCS 集群的第二个节点。
+. 验证 WFA 服务是否在集群的第二个节点上正确启动。
+

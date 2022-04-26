@@ -1,0 +1,190 @@
+---
+permalink: windows-install/task-install-workflow-automation-on-windows.html 
+sidebar: sidebar 
+keywords: oncommand workflow automation, install, windows 
+summary: 您可以安装 OnCommand Workflow Automation （ WFA ）来创建和自定义存储工作流，以自动执行在环境中执行的存储任务。 
+---
+= 在 Windows 上安装 OnCommand Workflow Automation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以安装 OnCommand Workflow Automation （ WFA ）来创建和自定义存储工作流，以自动执行在环境中执行的存储任务。
+
+.您需要什么？ #8217 ；将需要什么
+* 您必须已查看安装前提条件。
++
+xref:reference-prerequisites-for-installing-workflow-automation.adoc[安装 Workflow Automation 的前提条件]
+
+* 如果要在先前安装并卸载了 WFA 的系统上安装 WFA ，则必须确保该系统上没有 WFA 服务。
+* 您必须已从 NetApp 支持站点下载 WFA 安装程序。
+* 您必须禁用 Java 的 `自动升级` 功能。
+
+
+.关于此任务
+* 如果要在虚拟机（ VM ）上安装 WFA ，则虚拟机名称不能包含下划线（ _ ）字符。
+* 在安装 WFA 之前安装 ActiveState ActivePerl 。
++
+此安装不会影响 WFA 服务器上安装的任何其他 ActivePerl 实例。
+
+* 在重新安装 WFA 4.2 或更高版本之前，如果已卸载 MySQL ，则必须删除 MySQL 数据目录。
+* 如果您自行安装 MySQL ，则 WFA 会将 MySQL `my.ini` 文件中的 `secure-file-privilege` 和 `sql-mode` 属性设置为空。
+
+
+.步骤
+. 使用具有管理权限的帐户登录到 Windows 。
+. 打开 Windows 资源管理器，然后导航到安装文件所在的目录。
+. 安装 WFA ：
++
+** 交互式安装
++
+... 右键单击并以管理员用户身份运行 WFA 安装程序可执行文件（` .exe` ）。
+... 单击 * 下一步 * 。
+... 输入默认管理员用户的凭据，然后单击 * 下一步 * 。
++
+默认管理员密码必须满足以下条件：
+
++
+**** 至少 6 个字符
+**** 一个大写字符
+**** 一个小写字符
+**** 一个数字
+**** 一个特殊字符 * 注： * 您必须记下管理员用户的凭据。
+
+
+... 选择 WFA 配置的端口，然后单击 * 下一步 * 。
+... 输入站点名称和公司名称，然后单击 * 下一步 * 。
++
+站点名称可以包括 WFA 安装位置，例如匹兹堡，宾夕法尼亚州。
+
+... 如果要更改默认安装位置，请选择要安装 WFA 的位置，然后单击 * 下一步 * 。
+... 如果不想更改 WFA 数据库的默认位置，请单击 * 下一步 * 。
+... 单击 * 安装 * 继续安装。
+... 单击 * 完成 * 完成安装。
+... 选择以下操作之一，验证是否已成功安装 WFA ：
++
+**** 通过 Web 浏览器访问 WFA 。
+**** 使用 Windows 服务控制台验证 NetApp WFA Server 服务和 NetApp WFA 数据库服务是否正在运行。
+
+
+
+
+** 静默安装（从命令提示符处）： + `` WFA-version_number-build_number.exe /s /v"wfa_admin_username=wfa_username wfa_admin_password=password wfa_admin_confirm_password=confirmadmin password / wfa_mysql_pass=password confirm_wfa_HTTPS_pass=MySQL 确认密码 wfa_install_site=site wfa_install_port=wfa_ed_port=wfa_port_port=wfa_ed_port=wfa_port=wfa_ed_port_port=wfa_port=wfa_ed_port_port_port_port./astfa_sta=wfa_sta=wfa_port_port_
++
+* 示例 *
+
++
+`` WFA-x64-v4.2.0.0.0-B2973881.exe /s /v"WFA_admin_username=admin WFA_admin_password=Company * 234 WFA_admin_confirm_password=Company * 234 WFA_MySql_pass=MyS* 234 WFA_mysql_pass=MyS* 234 WFA_install_site=EDNB WFA_install_Organization=NetApp WFA_http_port=MyS=WAFA\WAFA\WAFA\WAFA\SDR=PS\WAFA\WAFA\WAFA\APPORT
+
++
+
+NOTE: WFA 不支持 ` /qn` 选项。
+
++
+命令参数如下：
+
++
+[cols="2*"]
+|===
+| 参数 | Description 
+
+
+ a| 
+_wfa_admin_username_
+ a| 
+管理员用户名
+
+可选参数。如果不指定值，则使用默认值 admin 。
+
+
+
+ a| 
+_wfa_admin_password_
+ a| 
+管理员用户密码
+
+必需参数。默认管理员密码必须满足以下条件：
+
+*** 至少 6 个字符
+*** 一个大写字符
+*** 一个小写字符
+*** 一个数字
+*** 一个特殊字符
+
+
+
+
+ a| 
+_wfa_admin_confirm_password_
+ a| 
+管理员用户密码
+
+必需参数
+
+
+
+ a| 
+_wfa_mysql_pass_
+ a| 
+MySQL 用户密码
+
+必需参数
+
+
+
+ a| 
+_confirm_wfa_mysql_pass_
+ a| 
+MySQL 用户密码
+
+必需参数
+
+
+
+ a| 
+_wfa_install_site_
+ a| 
+安装 WFA 的组织单位 Mandatory 参数
+
+
+
+ a| 
+_WFA_INSTALL_Organization_
+ a| 
+要安装 WFA 的组织或公司名称
+
+必需参数
+
+
+
+ a| 
+_wfa_http_port_
+ a| 
+HTTP 端口可选参数。如果不指定值，则使用默认值 80 。
+
+
+
+ a| 
+_wfa_HTTPS_port_
+ a| 
+HTTPS 端口可选参数。如果不指定值，则使用默认值 443 。
+
+
+
+ a| 
+_INSTALLDIR_
+ a| 
+安装目录路径
+
+可选参数。如果未指定值，则使用默认路径 ` C ： \Program Files\NetApp\WFA\"` 。
+
+|===
+
+
+
+
+* 相关信息 *
+
+http://mysupport.netapp.com["NetApp 支持"]

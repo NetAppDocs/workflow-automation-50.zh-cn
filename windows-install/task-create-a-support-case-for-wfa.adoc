@@ -1,0 +1,21 @@
+---
+permalink: windows-install/task-create-a-support-case-for-wfa.html 
+sidebar: sidebar 
+keywords: create, support, case, oncommand, workflow automation 
+summary: 您可以为需要技术支持协助的 OnCommand Workflow Automation （ WFA ）问题创建支持案例。您必须使用技术鉴别模板创建支持案例。 
+---
+= 创建 OnCommand Workflow Automation 支持案例
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以为需要技术支持协助的 OnCommand Workflow Automation （ WFA ）问题创建支持案例。您必须使用技术鉴别模板创建支持案例。
+
+WFA 的技术鉴别模板提供了创建支持案例所需的所有信息。您必须使用技术鉴别模板中的问题和信息来构建问题描述 ，这有助于缩短解决案例所需的时间。
+
+.步骤
+. 访问 WFA 技术鉴别模板。
+. 使用模板构建案例并将其发送给技术支持。
+

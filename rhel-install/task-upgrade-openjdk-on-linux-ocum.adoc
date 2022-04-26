@@ -1,0 +1,62 @@
+---
+permalink: rhel-install/task-upgrade-openjdk-on-linux-ocum.html 
+sidebar: sidebar 
+keywords: oncommand, workflow, automation, upgrade, jre, linux 
+summary: 您可以在安装了 OnCommand Workflow Automation 的 Linux 服务器上升级到更高版本的 Java Runtime Environment （ JRE ），以获取安全漏洞修复。 
+---
+= 在 Linux 上升级 JRE
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在安装了 OnCommand Workflow Automation 的 Linux 服务器上升级到更高版本的 Java Runtime Environment （ JRE ），以获取安全漏洞修复。
+
+您必须具有安装 WFA 的 Linux 系统的 root 权限。
+
+
+NOTE: 您可以从一个 JRE 1.8 更新升级到一个更高版本的 JRE 1.8 。您不能升级到较新的 JRE 主要版本，例如 Java 9 。例如，您不能从 Java 8 update 144 （ 64 位）更新到 Java 8 update 151 （ 64 位）或从 Java 8 更新到 Java 9 。
+
+.步骤
+. 以 root 用户身份登录到 WFA 主机。
+. 将适当版本的 Java （ 64 位）下载到目标系统。
+. 在升级 JRE 之前，请执行以下命令以列出 WFA 的加密和许可证密钥：
++
+` /opt/NetApp/WFA/bin/WFA -K`
+
++
+此操作将返回加密密钥，例如：
+
++
+`关键字： oidMG6GbIuHjdZG30JgFng=`
+
++
+` /opt/NetApp/WFA/bin/WFA - 许可`
+
++
+此操作将返回许可证密钥，例如：
+
++
+`关键字： MS8xLzIwOTkgMTE6NTkgUE0=`
+
++
+请根据在 JRE 升级期间重新配置密钥的需要保存这些密钥。
+
+. 停止 WFA 服务：
++
+`sservice wfa-server stop`
+
+. 在系统上安装最新的 JRE 。
+. 要升级 JRE ，请使用以下命令重新配置步骤 3 中保存的密钥：
++
+` /opt/netapp/wfa/bin/wFA -license=MS8xLzIwOTkgMTE6NTkgUE0=`
+
++
+` /opt/netapp/wfa/bin/wFA -K=oidMG6GbIuHjdZG30JgFng=`
+
+. 启动 WFA 服务：
++
+`sservice wfa-server start`
+
+
