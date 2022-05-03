@@ -13,6 +13,13 @@
   
   
     <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-advanced-configuring-oncommand-workflow-automation.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/concept-advanced-configuring-oncommand-workflow-automation.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -21,13 +28,6 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/rhel-install/concept-advanced-configuring-oncommand-workflow-automation.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-advanced-configuring-oncommand-workflow-automation.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -90,13 +90,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-entity-versioning-works.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-how-entity-versioning-works.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -104,7 +97,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-repeat-row-works.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-entity-versioning-works.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -118,7 +111,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-reservation-works.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-repeat-row-works.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -132,7 +125,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-resource-selection-works.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-reservation-works.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -146,7 +139,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-define-constants.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-resource-selection-works.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -160,7 +153,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-define-user-input.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-define-constants.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -174,7 +167,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-define-workflows.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-define-user-input.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -188,6 +181,13 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-define-workflows.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-execute-custom-rest-end-points.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -195,14 +195,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-map-command-parameters.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-how-you-map-command-parameters.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-how-you-map-command-parameters.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-map-command-parameters.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -223,14 +223,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-use-the-rest-api.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-how-you-use-the-rest-api.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-how-you-use-the-rest-api.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-how-you-use-the-rest-api.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -300,7 +300,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-overview-of-oncommand-workflow-automation.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-overview-of-oncommand-workflow-automation.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -321,7 +321,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-overview-of-oncommand-workflow-automation.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-overview-of-oncommand-workflow-automation.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -440,13 +440,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-approval-points-are.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-what-approval-points-are.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -454,7 +447,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-conditional-execution-is.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-approval-points-are.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -468,7 +461,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-continue-on-failure-is.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-conditional-execution-is.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -476,6 +469,13 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-what-continue-on-failure-is.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-continue-on-failure-is.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -517,13 +517,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-incremental-naming-is.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-what-incremental-naming-is.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -531,7 +524,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-remote-system-types-are.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-incremental-naming-is.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -545,7 +538,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-return-parameters-are.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-remote-system-types-are.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -559,7 +552,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-schemes-are.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-return-parameters-are.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -567,6 +560,13 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/concept-what-schemes-are.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/concept-what-schemes-are.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -755,7 +755,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-considerations-of-importing-wfa-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/reference-considerations-of-importing-wfa-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -776,7 +776,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/reference-considerations-of-importing-wfa-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-considerations-of-importing-wfa-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1245,13 +1245,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-pack-identification-during-upgrade.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/reference-pack-identification-during-upgrade.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -1260,6 +1253,13 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/rhel-install/reference-pack-identification-during-upgrade.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-pack-identification-during-upgrade.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1343,13 +1343,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-references-to-learning-material.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/reference-references-to-learning-material.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -1357,7 +1350,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-related-documentation-for-oncommand-workflow-automation.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-references-to-learning-material.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1372,6 +1365,13 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/rhel-install/reference-related-documentation-for-oncommand-workflow-automation.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-related-documentation-for-oncommand-workflow-automation.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1399,14 +1399,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-reserved-words.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/reference-reserved-words.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/reference-reserved-words.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/reference-reserved-words.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1534,7 +1534,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50//search.html</loc>
       
-      <lastmod>2022-04-26T16:31:44+00:00</lastmod>
+      <lastmod>2022-05-03T06:09:13+00:00</lastmod>
       
     </url>
   
@@ -1588,14 +1588,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-add-approval-points.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-add-approval-points.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-add-approval-points.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-add-approval-points.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1721,6 +1721,13 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-a-database-user-by-running-ocsetup-on-linux.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/task-configure-a-database-user-by-running-ocsetup-on-linux.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -1735,7 +1742,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-a-database-user-by-running-ocsetup-on-linux.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-a-database-user-by-running-ocsetup-on-windows.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1756,13 +1763,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-a-database-user-by-running-ocsetup-on-windows.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/task-configure-an-earlier-version-of-wfa-foir-high-availability-windows.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -1771,6 +1771,13 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/rhel-install/task-configure-an-earlier-version-of-wfa-to-high-availability.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-authentication-settings.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1791,7 +1798,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-authentication-settings.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-autosupport.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1812,14 +1819,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-autosupport.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-email-notifications-for-data-source-acquisition-failures.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-email-notifications-for-data-source-acquisition-failures.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-mail.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1840,14 +1847,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-mail.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/task-configure-mscs-to-install-wfa.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/task-configure-mscs-to-install-wfa.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-protocols-for-connecting-to-remote-systems.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1868,14 +1875,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-protocols-for-connecting-to-remote-systems.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-resource-reservation-for-workflows.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-resource-reservation-for-workflows.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-snmp.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1896,7 +1903,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-snmp.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-syslog.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1917,7 +1924,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-syslog.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-the-credentials-of-a-target-system.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -1932,13 +1939,6 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/rhel-install/task-configure-the-credentials-of-a-target-system.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-configure-the-credentials-of-a-target-system.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2085,13 +2085,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-create-a-workflow-automation-pack.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-create-a-workflow-automation-pack.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -2099,7 +2092,21 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-create-a-workflow-automation-pack.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-create-a-workflow.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-create-local-users.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2120,13 +2127,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-create-local-users.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-create-recurring-schedules.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -2134,14 +2134,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-create-workflow-help-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-create-workflow-help-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-create-workflow-help-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-create-workflow-help-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2162,14 +2162,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-define-filter-rules.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-define-filter-rules.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-define-filter-rules.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-define-filter-rules.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2183,14 +2183,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-delete-wfa-packs.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-delete-wfa-packs.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-delete-wfa-packs.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-delete-wfa-packs.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2239,14 +2239,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-export-oncommand-workflow-automation-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-export-oncommand-workflow-automation-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-export-oncommand-workflow-automation-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-export-oncommand-workflow-automation-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2267,7 +2267,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-import-oncommand-workflow-automation-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-import-oncommand-workflow-automation-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2288,7 +2288,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-import-oncommand-workflow-automation-content.html</loc>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/workflows/task-import-oncommand-workflow-automation-content.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
@@ -2484,6 +2484,13 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-set-up-a-data-source.html</loc>
+      
+      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/windows-install/task-set-up-a-data-source.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
@@ -2492,13 +2499,6 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/rhel-install/task-set-up-a-data-source.html</loc>
-      
-      <lastmod>2022-04-26T16:31:23+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-cn/workflow-automation-50/help/task-set-up-a-data-source.html</loc>
       
       <lastmod>2022-04-26T16:31:23+00:00</lastmod>
       
