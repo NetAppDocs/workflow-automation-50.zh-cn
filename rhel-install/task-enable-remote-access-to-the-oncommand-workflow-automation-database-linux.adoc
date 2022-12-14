@@ -13,11 +13,12 @@ summary: 默认情况下， OnCommand Workflow Automation （ WFA ）数据库�
 [role="lead"]
 默认情况下， OnCommand Workflow Automation （ WFA ）数据库只能由 WFA 主机系统上运行的客户端访问。如果要允许从远程系统访问 WFA 数据库，可以更改默认设置。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须以 root 用户身份登录到 WFA 主机系统。
 * 如果 WFA 主机系统上安装了防火墙，则必须已对防火墙设置进行配置，以允许从远程系统访问 MySQL 端口（ 3306 ）。
 
 
+.关于此任务
 此操作步骤 将使用默认 WFA 安装路径。如果您在安装期间更改了默认位置，则必须使用更改后的 WFA 安装路径。
 
 .步骤

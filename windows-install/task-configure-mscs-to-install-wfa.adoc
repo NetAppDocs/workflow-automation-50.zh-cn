@@ -13,7 +13,7 @@ summary: 在 Microsoft 集群服务器（ MSCS ）中安装 Workflow Automation 
 [role="lead"]
 在 Microsoft 集群服务器（ MSCS ）中安装 Workflow Automation （ WFA ）之前，必须配置 MSCS 环境。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 必须从服务器管理器安装 MSCS 。
 * 可选：必须安装 SnapDrive for Windows 。
 +
@@ -23,6 +23,7 @@ summary: 在 Microsoft 集群服务器（ MSCS ）中安装 Workflow Automation 
 * 必须将两个集群节点添加到同一个域中。
 
 
+.关于此任务
 您必须在 MSCS 界面中使用集群管理器完成此任务。
 
 .步骤

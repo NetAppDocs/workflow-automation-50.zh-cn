@@ -13,6 +13,7 @@ summary: 您可以通过从集群节点中删除所有 WFA 服务来从集群中
 [role="lead"]
 您可以通过从集群节点中删除所有 WFA 服务来从集群中卸载 Workflow Automation （ WFA ）。
 
+.关于此任务
 此任务适用场景 Windows Server 2012 。
 
 .步骤

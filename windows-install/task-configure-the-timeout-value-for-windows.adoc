@@ -13,6 +13,7 @@ summary: 您可以为 Workflow Automation （ WFA ） Web 图形用户界面配�
 [role="lead"]
 您可以为 Workflow Automation （ WFA ） Web 图形用户界面配置超时值，而不是使用默认超时值。
 
+.关于此任务
 WFA Web 图形用户界面的默认超时值为 180 分钟。您可以通过命令行界面配置超时值以满足您的要求。您不能从 WFA Web 图形用户界面设置超时值。
 
 

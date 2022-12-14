@@ -13,7 +13,7 @@ summary: 您必须在 OnCommand Workflow Automation （ WFA ）中设置与数�
 [role="lead"]
 您必须在 OnCommand Workflow Automation （ WFA ）中设置与数据源的连接，才能从数据源获取数据。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 对于 OnCommand Unified Manager 6.0 之前的版本，您必须已在 Unified Manager 服务器上运行最新版本的 ocsetup 工具，才能启用和配置对数据库的远程只读访问。
 * 对于 OnCommand Unified Manager 6.0 及更高版本，您必须已在 Unified Manager 服务器上创建数据库用户帐户。
 +
@@ -59,6 +59,7 @@ MySQL 数据库服务器
 
 
 
+.关于此任务
 您可以使用此操作步骤 向 WFA 添加多个 Unified Manager 服务器数据源。但是，如果要将操作步骤 服务器 6.3 及更高版本与 WFA 配对并使用 Unified Manager 服务器中的保护功能，则不能使用此 Unified Manager 。
 
 有关将 WFA 与 OnCommand 服务器 6.x 配对的详细信息，请参见 _Unified Manager 联机帮助。

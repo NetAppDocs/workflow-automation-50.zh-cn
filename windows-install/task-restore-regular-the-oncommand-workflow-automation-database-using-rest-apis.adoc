@@ -13,7 +13,7 @@ summary: 您可以使用 REST API 定期还原 OnCommand Workflow Automation （
 [role="lead"]
 您可以使用 REST API 定期还原 OnCommand Workflow Automation （ WFA ）数据库。在定期还原中，您只能还原 WFA 数据库。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须已为 WFA 数据库创建 ` .zip` 备份。
 * 您必须具有管理员或架构师凭据。
 * 如果要在迁移操作步骤 中还原数据库，则必须执行完全还原。

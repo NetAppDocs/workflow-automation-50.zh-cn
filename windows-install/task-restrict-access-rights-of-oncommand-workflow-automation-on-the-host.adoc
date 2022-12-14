@@ -13,6 +13,7 @@ summary: 默认情况下， OnCommand Workflow Automation （ WFA ）以主机�
 [role="lead"]
 默认情况下， OnCommand Workflow Automation （ WFA ）以主机系统的管理员身份执行工作流。您可以通过更改默认设置来限制主机系统上的 WFA 权限。
 
+.您需要的内容
 您必须以管理员身份登录到 WFA 主机系统。
 
 .步骤

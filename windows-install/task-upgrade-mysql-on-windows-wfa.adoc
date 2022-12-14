@@ -13,11 +13,13 @@ summary: 您可以在 Windows 服务器上升级新版本的 MySQL for OnCommand
 [role="lead"]
 您可以在 Windows 服务器上升级新版本的 MySQL for OnCommand Workflow Automation （ WFA ）。您可以升级到较新版本的 MySQL ，以获取 Windows 服务器上安全漏洞的修复。
 
+.您需要的内容
 您必须在 WFA 服务器上拥有 Windows 管理员权限和 MySQL root 用户的密码。
 
 
 NOTE: 在重新安装 WFA 4.2 或更高版本之前，如果已卸载 MySQL ，则必须已删除 MySQL 数据目录。
 
+.关于此任务
 您应了解以下限制：
 
 * 您可以在任何版本的 MySQL 5.7 中进行升级。

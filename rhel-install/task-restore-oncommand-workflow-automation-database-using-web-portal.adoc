@@ -13,7 +13,7 @@ summary: 您可以还原先前备份的 OnCommand Workflow Automation （ WFA �
 [role="lead"]
 您可以还原先前备份的 OnCommand Workflow Automation （ WFA ）数据库。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须已创建 WFA 数据库的备份。
 * 您必须具有管理员或架构师凭据。
 

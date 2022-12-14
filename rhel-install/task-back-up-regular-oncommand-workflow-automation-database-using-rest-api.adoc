@@ -13,6 +13,7 @@ summary: 您可以使用 REST API 定期备份 OnCommand Workflow Automation （
 [role="lead"]
 您可以使用 REST API 定期备份 OnCommand Workflow Automation （ WFA ）数据库。在定期备份中，只会备份 WFA 数据库。
 
+.您需要的内容
 您必须具有管理员，架构师或备份凭据。
 
 .步骤

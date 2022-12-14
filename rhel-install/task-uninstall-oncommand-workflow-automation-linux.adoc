@@ -13,6 +13,7 @@ summary: 您可以使用一个命令从 Red Hat Enterprise Linux 计算机卸载
 [role="lead"]
 您可以使用一个命令从 Red Hat Enterprise Linux 计算机卸载 OnCommand Workflow Automation （ WFA ）。
 
+.您需要的内容
 您必须对要从中卸载 WFA 的 Red Hat Enterprise Linux 计算机具有 root 用户访问权限。
 
 .步骤

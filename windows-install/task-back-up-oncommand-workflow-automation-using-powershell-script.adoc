@@ -13,8 +13,10 @@ summary: 如果要频繁备份 OnCommand Workflow Automation （ WFA ）数据�
 [role="lead"]
 如果要频繁备份 OnCommand Workflow Automation （ WFA ）数据库，可以使用随 WFA 安装包提供的 PowerShell 脚本。
 
+.您需要的内容
 您必须具有管理员用户凭据，架构师凭据或备份用户凭据。
 
+.关于此任务
 有关详细信息，请参见 REST 文档。
 
 . 以管理员用户身份打开 Windows PowerShell ，然后备份 WFA 数据库：

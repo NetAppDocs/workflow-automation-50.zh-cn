@@ -13,7 +13,7 @@ summary: 在 Veritas 集群服务器（ VCS ）中安装 OnCommand Workflow Auto
 [role="lead"]
 在 Veritas 集群服务器（ VCS ）中安装 OnCommand Workflow Automation （ WFA ）之前，必须确保已正确配置集群节点以支持 WFA 。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 必须按照 _Veritas Cluster Server 6.1.1 安装指南中的说明在集群的两个节点上安装 VCS 。
 * 要接收有关集群事件的通知，必须按照 _Veritas Cluster Server 管理员指南 _ 中的说明为 VCS 软件配置 SNMP 和 SMTP 。
 * 必须符合 VCS 文档中有关配置集群服务器的所有要求和准则。

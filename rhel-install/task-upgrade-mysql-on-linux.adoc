@@ -13,11 +13,13 @@ summary: 您可以在安装了 OnCommand Workflow Automation 的 Linux 服务器
 [role="lead"]
 您可以在安装了 OnCommand Workflow Automation 的 Linux 服务器上升级到较新版本的 MySQL ，以获取安全漏洞修复。
 
+.您需要的内容
 您必须具有安装 WFA 的 Linux 系统的 root 权限。
 
 
 NOTE: 在重新安装 WFA 4.2 之前，如果已卸载 MySQL ，则必须删除 MySQL 数据目录。
 
+.关于此任务
 您只能升级到 MySQL 5.7 的次要更新，例如 5.7.1 到 5.7.2 。您不能升级到 MySQL 的主要版本，例如 5.8 版。
 
 .步骤

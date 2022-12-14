@@ -13,8 +13,10 @@ summary: 您可以从 OnCommand Workflow Automation （ WFA ） 3.1 或更高版
 [role="lead"]
 您可以从 OnCommand Workflow Automation （ WFA ） 3.1 或更高版本原位升级到最新可用的 WFA 版本，以使用新功能和增强功能。
 
+.您需要的内容
 您必须已将 .bin 二进制文件从 NetApp 支持站点下载到 WFA 主机。
 
+.关于此任务
 您只能从 WFA 4.2 或 4.1 还原到 WFA 5.0 。WFA 数据库备份只能还原到运行相同版本或更高版本 WFA 的系统。
 
 从早期版本的 WFA 升级时，您不能自行安装 MySQL 。您可以自行安装 MySQL ：

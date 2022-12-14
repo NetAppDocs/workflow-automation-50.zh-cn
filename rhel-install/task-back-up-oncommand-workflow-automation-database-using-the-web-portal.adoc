@@ -13,8 +13,10 @@ summary: 您可以从 Web 门户备份 OnCommand Workflow Automation （ WFA ）
 [role="lead"]
 您可以从 Web 门户备份 OnCommand Workflow Automation （ WFA ）数据库，并使用备份文件进行数据恢复。您不能从 Web 门户执行完整备份。
 
+.您需要的内容
 要执行此任务，您必须具有管理员或架构师凭据。
 
+.关于此任务
 具有备份角色的 WFA 用户无法登录到 Web 门户来执行备份。具有备份角色的 WFA 用户只能执行远程备份或脚本备份。
 
 .步骤

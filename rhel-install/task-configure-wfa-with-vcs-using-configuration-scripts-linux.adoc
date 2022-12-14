@@ -13,7 +13,7 @@ summary: 在 VCS 中安装 Workflow Automation （ WFA ）后，您必须使用�
 [role="lead"]
 在 VCS 中安装 Workflow Automation （ WFA ）后，您必须使用配置脚本在 VCS 中配置 WFA ，以实现高可用性。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须已在两个集群节点上安装相同版本的 WFA 。
 * 两个节点的安装路径必须相同。
 * 您必须创建 WFA 的备份。

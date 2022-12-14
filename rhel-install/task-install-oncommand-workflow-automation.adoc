@@ -13,7 +13,7 @@ summary: 您可以使用命令行界面（ CLI ）安装 OnCommand Workflow Auto
 [role="lead"]
 您可以使用命令行界面（ CLI ）安装 OnCommand Workflow Automation （ WFA ）。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须已查看安装前提条件。
 +
 xref:reference-prerequisites-for-installing-workflow-automation.adoc[安装前提条件]
@@ -21,6 +21,7 @@ xref:reference-prerequisites-for-installing-workflow-automation.adoc[安装前�
 * 您必须已从 NetApp 支持站点下载 WFA 安装程序。
 
 
+.关于此任务
 如果要在虚拟机（ VM ）上安装 WFA ，则虚拟机名称不能包含下划线（ _ ）字符。
 
 您可以在 Shell 提示符处更改默认安装位置：

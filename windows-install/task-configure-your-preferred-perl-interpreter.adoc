@@ -13,8 +13,10 @@ summary: 默认情况下， ActivePerl 随 OnCommand Workflow Automation （ WFA
 [role="lead"]
 默认情况下， ActivePerl 随 OnCommand Workflow Automation （ WFA ）一起安装。如果要使用另一个 Perl 分发版，可以将首选 Perl 分发版配置为使用 WFA 。
 
+.您需要的内容
 您必须已在 WFA 服务器上安装所需的 Perl 分发版。
 
+.关于此任务
 您不能卸载或覆盖默认的 ActivePerl 安装。您必须在单独的位置安装首选 Perl 版本。
 
 .步骤

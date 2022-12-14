@@ -13,8 +13,10 @@ summary: 您可以备份和还原 OnCommand Workflow Automation （ WFA ）数�
 [role="lead"]
 您可以备份和还原 OnCommand Workflow Automation （ WFA ）数据库以及支持的配置，以便在发生灾难时恢复数据。支持的配置包括数据访问， HTTP 超时和 SSL 证书。
 
+.您需要的内容
 您必须具有管理员权限或架构师凭据。
 
+.关于此任务
 您必须在安全位置创建备份，因为还原备份将提供对 WFA 访问的所有存储系统的访问权限。
 
 

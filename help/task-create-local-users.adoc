@@ -13,8 +13,10 @@ summary: 通过 OnCommand Workflow Automation （ WFA ），您可以创建和�
 [role="lead"]
 通过 OnCommand Workflow Automation （ WFA ），您可以创建和管理具有各种角色的特定权限的本地 WFA 用户，例如来宾，操作员，审批者，架构师， 管理和备份。
 
+.您需要的内容
 您必须已安装 WFA 并以管理员身份登录。
 
+.关于此任务
 使用 WFA 可以为以下角色创建用户：
 
 * * 来宾 *

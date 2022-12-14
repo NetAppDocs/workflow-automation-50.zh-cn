@@ -13,6 +13,7 @@ summary: 您可以将 OnCommand Workflow Automation （ WFA ）配置为将日�
 [role="lead"]
 您可以将 OnCommand Workflow Automation （ WFA ）配置为将日志数据发送到特定的系统日志服务器，以用于事件日志记录和日志信息分析等目的。
 
+.您需要的内容
 您必须已将系统日志服务器配置为接受来自 WFA 服务器的数据。
 
 .步骤

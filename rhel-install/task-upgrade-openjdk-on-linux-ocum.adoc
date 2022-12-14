@@ -13,6 +13,7 @@ summary: 您可以在安装了 OnCommand Workflow Automation 的 Linux 服务器
 [role="lead"]
 您可以在安装了 OnCommand Workflow Automation 的 Linux 服务器上升级到更高版本的 Java Runtime Environment （ JRE ），以获取安全漏洞修复。
 
+.您需要的内容
 您必须具有安装 WFA 的 Linux 系统的 root 权限。
 
 

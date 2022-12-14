@@ -13,7 +13,7 @@ summary: 您可以安装 OnCommand Workflow Automation （ WFA ）来创建和�
 [role="lead"]
 您可以安装 OnCommand Workflow Automation （ WFA ）来创建和自定义存储工作流，以自动执行在环境中执行的存储任务。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须已查看安装前提条件。
 +
 xref:reference-prerequisites-for-installing-workflow-automation.adoc[安装 Workflow Automation 的前提条件]

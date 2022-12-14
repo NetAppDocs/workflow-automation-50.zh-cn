@@ -13,6 +13,7 @@ summary: 您可以为需要技术支持协助的 OnCommand Workflow Automation �
 [role="lead"]
 您可以为需要技术支持协助的 OnCommand Workflow Automation （ WFA ）问题创建支持案例。您必须使用技术鉴别模板创建支持案例。
 
+.关于此任务
 WFA 的技术鉴别模板提供了创建支持案例所需的所有信息。您必须使用技术鉴别模板中的问题和信息来构建问题描述 ，这有助于缩短解决案例所需的时间。
 
 .步骤

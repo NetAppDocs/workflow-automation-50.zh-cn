@@ -13,6 +13,7 @@ summary: 您可以使用 ActiveState Perl 软件包管理器（ PPM ）管理站
 [role="lead"]
 您可以使用 ActiveState Perl 软件包管理器（ PPM ）管理站点特定的 Perl 模块。您必须在 OnCommand Workflow Automation （ WFA ）安装目录之外安装站点专用的 Perl 模块，以避免在 WFA 升级期间删除 Perl 模块。
 
+.关于此任务
 使用 PERL5LIB 环境变量，您可以将 WFA 服务器上安装的 Perl 解释器配置为使用 Perl 模块。
 
 在此操作步骤 中，我们将在 c ： \Perl 的用户区域中安装试用 Perl 模块作为一个示例。卸载 WFA 时不会删除此用户区域，您可以在重新安装或升级 WFA 后重复使用此区域。

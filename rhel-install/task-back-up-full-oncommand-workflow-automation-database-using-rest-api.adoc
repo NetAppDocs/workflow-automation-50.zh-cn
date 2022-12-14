@@ -13,6 +13,7 @@ summary: 您可以使用 REST API 对 OnCommand Workflow Automation （ WFA ）�
 [role="lead"]
 您可以使用 REST API 对 OnCommand Workflow Automation （ WFA ）数据库执行完整备份。在完整备份中，将备份 WFA 数据库， WFA 配置和密钥。
 
+.您需要的内容
 您必须具有管理员或架构师凭据。
 
 .步骤

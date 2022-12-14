@@ -13,6 +13,7 @@ summary: OnCommand Workflow Automation 将使用系统上安装的 Perl 软件�
 [role="lead"]
 OnCommand Workflow Automation 将使用系统上安装的 Perl 软件包。如果要使用另一个 Perl 分发版，可以将首选 Perl 分发版配置为使用 WFA 。
 
+.您需要的内容
 您必须已在 WFA 服务器上安装所需的 Perl 分发版。
 
 .步骤

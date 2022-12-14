@@ -13,6 +13,7 @@ summary: 您可以从有权访问 WFA 服务器的任何系统通过 Web 浏览�
 [role="lead"]
 您可以从有权访问 WFA 服务器的任何系统通过 Web 浏览器访问 OnCommand Workflow Automation （ WFA ）。
 
+.您需要的内容
 您必须已为 Web 浏览器安装 Adobe Flash Player 。
 
 .步骤

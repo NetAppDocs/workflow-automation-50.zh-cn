@@ -13,6 +13,7 @@ summary: 您可以控制在数据源采集失败时在 OnCommand Workflow Automa
 [role="lead"]
 您可以控制在数据源采集失败时在 OnCommand Workflow Automation （ WFA ）中生成的通知。您可以配置通知的阈值和间隔因子。
 
+.您需要的内容
 您必须已在 OnCommand Workflow Automation （ WFA ）中配置电子邮件通知。
 
 .步骤

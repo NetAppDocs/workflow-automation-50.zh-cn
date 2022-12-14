@@ -13,6 +13,7 @@ summary: 您可以将 OnCommand Workflow Automation （ WFA ）配置为向您�
 [role="lead"]
 您可以将 OnCommand Workflow Automation （ WFA ）配置为向您发送有关工作流操作的电子邮件通知，例如，工作流已启动或工作流失败。
 
+.您需要的内容
 您必须已在环境中配置邮件主机。
 
 .步骤

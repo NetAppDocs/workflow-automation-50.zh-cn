@@ -13,11 +13,12 @@ summary: 如果您不再需要从 OnCommand Workflow Automation （ WFA ）创�
 [role="lead"]
 如果您不再需要从 OnCommand Workflow Automation （ WFA ）创建的方案，则可以将其删除。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 您必须已安装 WFA 。
 * 您必须具有 WFA 的管理员权限或架构师凭据。
 
 
+.关于此任务
 您不能删除预定义的方案。
 
 .步骤
